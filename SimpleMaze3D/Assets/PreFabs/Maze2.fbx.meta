@@ -1,19 +1,20 @@
 fileFormatVersion: 2
-guid: d42877e88d81f85439f24af2800a1783
-SketchUpImporter:
-  serializedVersion: 20200
+guid: eb15fd60446f5b746a925b1dbec0e811
+ModelImporter:
+  serializedVersion: 21202
   internalIDToNameTable: []
   externalObjects: {}
   materials:
     materialImportMode: 2
-    materialName: 2
-    materialSearch: 0
+    materialName: 0
+    materialSearch: 1
     materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -34,7 +35,7 @@ SketchUpImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.0254
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -43,6 +44,7 @@ SketchUpImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -54,6 +56,7 @@ SketchUpImporter:
     skinWeightsMode: 0
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
+    optimizeBones: 1
     meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
@@ -73,7 +76,7 @@ SketchUpImporter:
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
-  importAnimation: 0
+  importAnimation: 1
   humanDescription:
     serializedVersion: 3
     human: []
@@ -92,7 +95,7 @@ SketchUpImporter:
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   avatarSetup: 0
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
@@ -100,10 +103,3 @@ SketchUpImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-  generateBackFace: 1
-  mergeCoplanarFaces: 0
-  selectedNodes: 
-  assetHash:
-    serializedVersion: 2
-    Hash: a1e05e1dc1361bd3d14c1787303f6eb5
-  fileUnit: 0
